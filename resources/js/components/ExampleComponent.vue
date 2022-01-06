@@ -6,7 +6,7 @@
                     <div class="card-header">hola</div>
 
                     <div class="card-body">
-                        I'm an example component hola viu.
+                        I'm an example component hola viu. hola render 
                     </div>
                 </div>
             </div>

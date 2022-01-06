@@ -8,6 +8,14 @@ require('./bootstrap');
 
 window.Vue = require('vue').default;
 
+/**instanciamos las 3 importaciones de element  */
+
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+//import App from './App.vue';
+
+window.Vue.use(ElementUI);
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -28,6 +36,10 @@ Vue.component('prueba-component', require('./components/Prueba.vue').default);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+/*importamos el archivo routes.js */
+import router from './routes';
+
 const app = new Vue({
     el: '#app',
+    router  /*llamos al componente router de routes.js */
 });

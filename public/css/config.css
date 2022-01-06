@@ -1,0 +1,20 @@
+.slide-fade-enter{
+    transform: translate(10px);
+    opacity: 0;
+}
+.slide-fade-enter-active{
+    transition: all 0.2s ease;
+}
+.slide-fade-leave-to{
+    transform: translateX(-10px);
+    opacity: 0;
+}
+.slide-fade-leave-active{
+    transition: all 0.2s ease;
+}
+.btnWidth{  /*para cambiar el tamaño de los botones*/
+    width: 49% !important;
+}
+.el-select{ /*amplia e input de seleccion*/
+    width: 100% !important;
+}
